@@ -1,8 +1,23 @@
 .Palette {
 	height: 100vh;
+	display: flex;
+	flex-direction: column; /* to get rid of vertical scrolling */
 }
 
 .Palette-colors {
 	height: 90%;
 	overflow: hidden;
+}
+
+footer {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	height: 5vh;
+	font-weight: 700;
+}
+
+footer span {
+	font-size: 1.4rem;
+	margin: 0 1em;
 }
